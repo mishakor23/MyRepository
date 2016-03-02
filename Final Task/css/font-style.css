@@ -1,0 +1,18 @@
+/* font styles start */
+@font-face {
+	font-family: 'Lato Bold'; 
+	src: url('../fonts/Lato-Bold.ttf')  format('truetype');    
+}
+@font-face {
+	font-family: 'Lato Regular';
+	src: url('../fonts/Lato-Reg.ttf')  format('truetype');     
+}
+@font-face {
+	font-family: 'Lato Regular Italic';
+	src: url('../fonts/Lato-RegItalic.ttf')  format('truetype');     
+}
+@font-face {
+	font-family: 'Lato Light';
+	src: url('../fonts/Lato-Light.ttf')  format('truetype');     
+}
+/* font styles end */

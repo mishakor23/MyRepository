@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Basket</title>
+	<!--reset styles-->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/ui.css">
+	<!--common styles-->
+	<link rel="stylesheet" href="css/font-style.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/carousel.css">
+	<!--jQuery library-->
+	<script src="js/common/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<!-- Header -->
+			<header id="header">
+				<div class="holder">
+					<!-- Navigation -->
+					<div class="navbar">
+						<h1 class="logo"><a href="index.html">SH</a></h1>
+						<nav class="nav m-hidden">
+							<ul>
+								<li><a href="category-all.html">Woman</a></li>
+								<li><a href="category-all.html">Men</a></li>
+								<li><a href="category-all.html">Kids</a></li>
+								<li><a href="category-all.html">Comming Soon</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- End navigation -->
+					<div class="options">
+						<ul class="control-list">
+							<li><a href="basket.html"><i class="ico basket">Basket</i>Basket (0)</a></li>
+						</ul>
+						<form class="search-form xs-hidden">
+							<fieldset>
+								<input type="text" id="search" placeholder="Search something...">
+								<button type="button" id="submit"></button>
+							</fieldset>
+						</form>
+						<a href="#" class="opener hidden">Open Form</a>
+					</div>
+				</div>
+				<form class="search-form hidden small-size">
+					<fieldset>
+						<input type="text" placeholder="Search something...">
+						<button type="button"></button>
+					</fieldset>
+				</form>
+				<nav class="nav hidden m-visible">
+					<ul>
+						<li><a href="category-all.html">Woman</a></li>
+						<li><a href="category-all.html">Men</a></li>
+						<li><a href="category-all.html">Kids</a></li>
+						<li><a href="category-all.html">Comming Soon</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- End header -->
+			<!-- Main -->
+			<div id="main">
+				<ul class="bread-crumbs">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="category-all.html">men</a></li>
+					<li><a href="category-all.html">shoes</a></li>
+					<li>floral plimsoll</li>
+				</ul>
+				<div class="heading">
+					<h2>your shopping bag</h2>
+					<h3>Items reserved for limited time only</h3>
+				</div>
+				<table class="order smd-hidden big">
+					<tr>
+						<th class="first-col">product</th>
+						<th class="second-col">description</th>
+						<th class="third-col">color</th>
+						<th class="forth-col">size</th>
+						<th class="fifth-col">qty</th>
+						<th class="sixth-col">amount</th>
+						<th class="seventh-col">delete</th>
+					</tr>
+					<tr class="counter">
+						<td><div class="img-box"><img src="img/small-product-img-1.png" width="100" height="100" alt="pic"></div></td>
+						<td>
+							<h3>Floral Plimsol (1st)</h3>
+							<span class="code">Ref. 2514/302</span>
+						</td>
+						<td>Black</td>
+						<td>39</td>
+						<td><div class="arrows"></div></td>
+						<td class="amount-0 amount">&#8364; </td>
+						<td>
+							<span class="delete">Delete</span>
+							<a class="undo-button hidden">Undo</a>
+						</td>
+					</tr>
+					<tr class="counter">
+						<td><div class="img-box"><img src="img/small-product-img-1.png" width="100" height="100" alt="pic"></div></td>
+						<td><h3>Floral Plimsol (2nd)</h3><span class="code">Ref. 2514/302</span></td>
+						<td>Black</td>
+						<td>M</td>
+						<td><div class="arrows"></div></td>
+						<td class="amount-1 amount">&#8364; </td>
+						<td>
+							<span class="delete">Delete</span>
+							<a class="undo-button hidden">Undo</a>
+						</td>
+					</tr>
+					<tr class="counter">
+						<td><div class="img-box"><img src="img/small-product-img-1.png" width="100" height="100" alt="pic"></div></td>
+						<td><h3>Floral Plimsol (3rd)</h3><span class="code">Ref. 2514/302</span></td>
+						<td>Black</td>
+						<td>S</td>
+						<td><div class="arrows"></div></td>
+						<td class="amount-2 amount">&#8364; </td>
+						<td><span class="delete">Delete</span></td>
+					</tr>
+					<tr class="">
+						<td colspan="4"></td>
+						<td class="total">Subtotal: </td>
+						<td class="sum">1000$</td>
+						<td></td>
+					</tr>
+				</table>
+				<table class="order small">
+					<tr class="counter">
+						<td class="first-col">
+							<div class="img-box">
+								<img src="img/small-product-img-1.png" width="100" height="100" alt="pic">
+							</div>
+						</td>
+						<td class="second-col">
+							<h3>Floral Plimsol (1st)</h3>
+							<span class="code feature">Ref. 2514/302</span>
+							<span class="feature">Black</span>
+							<span class="feature">39</span>
+							<div class="arrows"></div>
+						</td>
+						<td class="third-col">
+							<span class="delete">Delete</span>
+							<div class="amount-0 amount">&#8364; 99,95</div>
+						</td>
+					</tr>
+					<tr class="counter">
+						<td>
+							<div class="img-box">
+								<img src="img/small-product-img-1.png" width="100" height="100" alt="pic">
+							</div>
+						</td>
+						<td>
+							<h3>Floral Plimsol (2nd)</h3>
+							<span class="code feature">Ref. 2514/302</span>
+							<span class="feature">One color</span>
+							<span class="feature">M</span>
+							<div class="arrows"></div>
+						</td>
+						<td>
+							<span class="delete">Delete</span>
+							<div class="amount-1 amount">&#8364; 99,95</div>
+						</td>
+					</tr>
+					<tr class="counter">
+						<td>
+							<div class="img-box">
+								<img src="img/small-product-img-1.png" width="100" height="100" alt="pic">
+							</div>
+						</td>
+						<td>
+							<h3>Floral Plimsol (3rd)</h3>
+							<span class="code feature">Ref. 2514/302</span>
+							<span class="feature">One color</span>
+							<span class="feature">S</span>
+							<div class="arrows"></div>
+						</td>
+						<td>
+							<span class="delete">Delete</span>
+							<div class="amount-2 amount">&#8364; 99,95</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+						<td class="sum">1000$</td>
+					</tr>
+				</table>
+				<ul class="order-list">
+					<li><a class="btn orange medium" href="thank.html">order now</a></li>
+					<li><a href="">Continue Shoping</a></li>
+				</ul>
+				<div id="noti">Element deleted</div>
+			</div>
+			<!-- End main -->
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="footer-list">
+					<li class="smd-hidden">
+						<h3>COLLECTION</h3>
+						<ul class="footer-list-item">
+							<li><a href="#">Woman</a></li>
+							<li><a href="">Men</a></li>
+							<li><a href="">Kids</a></li>
+							<li><a href="">Coming Soon</a></li>
+						</ul>
+					</li>
+					<li class="smd-hidden">
+						<h3>SITE</h3>
+						<ul class="footer-list-item">
+							<li><a href="">Terms of Service</a></li>
+							<li><a href="">Privacy Policy</a></li>
+							<li><a href="">Copyright Policy</a></li>
+							<li><a href="">Press Kit</a></li>
+							<li><a href="">Support</a></li>
+						</ul>
+					</li>
+					<li class="smd-hidden">
+						<h3>SHOP</h3>
+						<ul class="footer-list-item">
+							<li><a href="">About us</a></li>
+							<li><a href="">Shipping Methods</a></li>
+							<li><a href="">Career</a></li>
+							<li><a href="">Contact</a></li>
+						</ul>
+					</li>
+					<li>
+						<h3>SOCIAL</h3>
+						<p>Shoper is made with love in Warsaw</p>
+						<p>2014 &#169; All rights reserved. El Passion</p>
+						<ul class="socials">
+							<li><a href="" class="twitter">twitter</a></li>
+							<li><a href="" class="facebook">facebook</a></li>
+							<li><a href="" class="instagram">instagram</a></li>
+						</ul>
+					</li>
+				</ul>
+			</footer>
+			<!-- End footer -->
+		</div>
+	</div>
+	<script type="text/javascript" src="js/basket.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		Array.prototype.forEach.call(document.querySelectorAll('.counter'), function (tr, index){
+			return new Counter(tr, index%3);
+		});
+	</script>
+</html>
+

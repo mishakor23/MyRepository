@@ -1,0 +1,266 @@
+/* media styles start */
+.hidden{
+	display: none;
+}
+@media only screen and (max-width: 1440px) {
+    .lg-hidden {display: none !important;}
+    .lg-visible {display: block !important;}
+}
+@media only screen and (max-width: 1023px) {
+    .md-hidden {display: none !important;}
+    .md-visible {display: block !important;}
+}
+@media only screen and (max-width: 769px) {
+    .smd-hidden {display: none !important;}
+    .smd-visible {display: block !important;}
+}
+@media only screen and (max-width: 600px) {
+    .sm-hidden {display: none !important;}
+    .sm-visible {display: block !important;}
+}
+@media only screen and (max-width: 480px) {
+    .xs-hidden {display: none !important;}
+    .xs-visible {display: block !important;}
+}
+@media only screen and (max-width: 1023px){
+	#header .navbar{
+		width: 52%;
+	}
+	.logo{
+		margin: 0 25px 0 0;
+	}
+	#header .navbar li{
+		margin: 0 25px 0 0;
+	}
+	#header .options{
+		width: 48%;
+	}
+}
+@media only screen and (max-width: 950px){
+	.goods{
+		margin: 0 auto;
+		max-width: 500px;
+	}
+	.goods > li {
+		width: 50%;
+		padding-bottom: 20px;
+	}
+	.photos{
+		font-size: 22px;
+		line-height: 24px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.m-hidden{
+		display: none !important;
+	}
+	.m-visible{
+		display: block !important;
+		width: 100%;
+	}
+	#header{
+		padding-bottom: 0;
+	}
+	.nav{
+		padding-top: 20px;
+	}
+	.nav ul{
+		border-top: 1px solid #e5e5e5;
+		padding: 20px 0 0; 
+	}
+	.nav li{
+		float: none;
+		padding: 0 0 40px 0;
+		text-align: center;
+		margin: 0;
+		font-size: 18px;
+	}
+	#header .navbar{
+		width: 20%;
+	}
+	#header .options{
+		width: 80%;
+	}
+	.promo{
+		padding: 0;
+	}
+	.photos{
+		font: 25px/28px 'Lato Bold', Arial, Helvetica, sans-serif;
+	}
+	.photos li{
+		float: none;
+		width: 75%;
+		margin: 0 auto;
+	}
+	.photos .title {
+		margin: 0 0 7px;
+	}
+	.photos .info{
+		font: italic 22px/25px Georgia, serif;
+	}
+	.footer-list>li{
+		width: 100%;
+		text-align: center;
+		border: 0;
+	}
+	.socials{
+		text-align: center;
+	}
+	.socials li{
+		display: inline-block;
+		float: none;
+	}
+	.bread-crumbs{
+		text-align: center;
+	}
+	.gallery-wrapper img{
+		width: 70%;
+		height: auto;
+		margin: 0 auto;
+	}
+	.pagination img{
+		width: 58px;
+		height: 60px;
+	}
+	.order.small{
+		display: table;
+		margin: 0 0 32px;
+	}
+	.order td:first-child,
+	.order td{
+		vertical-align: top;
+	}
+	.first-col{
+		text-align: left;
+	}
+	.order tr{
+		border-top: 1px solid #e5e5e5;
+	}
+	.order h3{
+		padding: 0 0 5px;
+	}
+	.order .feature{
+		display: block;
+		padding: 0 0 5px;
+	}
+	.order td{
+		padding: 10px 0 20px;
+	}
+	.order td:last-child{
+		position: relative;
+		vertical-align: bottom;
+		text-align: right;
+	}
+	.order td:last-child .delete{
+		position: absolute;
+		top: 10px;
+		right: 0;
+		text-indent: 9999px;
+	}
+	.order tr td.sum{
+		padding: 20px 15px 20px 0;
+	}
+	.order-list{
+		text-align: center;
+	}
+	.order-list li{
+		float: none;
+		margin: 0 0 26px;
+	}
+	.order-list a{
+		margin: 0; 
+	}
+	.order-list .btn{
+		width: 400px;
+	}
+	.thanks{
+		border-bottom: 1px solid #e5e5e5;
+		padding: 19px 0 10px;
+		min-height: auto;
+	}
+	.thanks .v-container {
+		position: static;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.thanks h4{
+		margin-bottom: 20px;
+	}
+	#footer{
+		padding-top: 20px;
+	}
+	#footer h3{
+		font-size: 30px;
+		letter-spacing: 5px;
+		margin-bottom: 50px;
+	}
+	#footer .socials{
+		padding-top: 32px;
+	}
+	#footer .socials li{
+		padding-right: 12px;
+	}
+	.footer-list li {
+	    font: 18px 'Lato Regular', Arial, Helvetica, sans-serif;
+	}
+}
+@media only screen and (max-width: 640px){
+	.photos li{
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.sing-up  .form-field{
+		width: 259px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.navbar{
+		padding: 0 0 20px 0;
+	}
+	.goods .img-box{
+		width: 165px;
+	}
+	.product-size li{
+		margin: 0 1%;
+	}
+	.small{
+		width: 100%;
+	}
+	.opener{
+		display: block;
+	}
+	.opener.clicked{
+		display: none;
+	}
+	.small-size.active{
+		display: inline-block;
+	}
+	.order-list .btn{
+		width: 100%;
+	}
+	.thanks h1{
+		line-height: 1.2;
+	}
+}
+@media only screen and (max-width: 413px){
+	.sing-up  .form-field{
+		width: 180px;
+		height: 28px;
+	}
+	.sing-up .btn{
+		width: 70px;
+		height: 28px;
+		line-height: 28px;
+		font-size: 12px;
+	}
+	.goods .img-box{
+		width: 120px;
+	}
+	.img-box{
+		width: 120px;
+	}
+}
+/* media styles end */
