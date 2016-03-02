@@ -101,5 +101,5 @@ Counter.prototype.del = function(target) {
 };
 
 function showNoti(){
-	$('#noti').show();
+	$('#noti').removeClass('hidden');
 }
